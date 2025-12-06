@@ -1,0 +1,75 @@
+Statistical Test Results
+=========================
+
+Report for: all_Inclusiveness.detailed_ss.txt
+
+--- Gender Disc. ---
+H vs AI:
+    Significant: False
+    Effect size: 0.0151
+    95% CI:      [-0.0145, 0.0463]
+H+AI vs AI:
+    Significant: True
+    Effect size: 0.0321
+    95% CI:      [0.0035, 0.0608]
+H vs H+AI:
+    Significant: True
+    Effect size: 0.0472
+    95% CI:      [0.0176, 0.0768]
+
+--- Body-shaming ---
+H vs AI:
+    Significant: False
+    Effect size: 0.0297
+    95% CI:      [-0.0083, 0.0686]
+H+AI vs AI:
+    Significant: False
+    Effect size: -0.0062
+    95% CI:      [-0.0450, 0.0342]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0235
+    95% CI:      [-0.0145, 0.0624]
+
+--- Violence ---
+H vs AI:
+    Significant: False
+    Effect size: 0.0225
+    95% CI:      [-0.0147, 0.0596]
+H+AI vs AI:
+    Significant: False
+    Effect size: 0.0171
+    95% CI:      [-0.0200, 0.0541]
+H vs H+AI:
+    Significant: True
+    Effect size: 0.0395
+    95% CI:      [0.0024, 0.0767]
+
+--- Only Appearance ---
+H vs AI:
+    Significant: False
+    Effect size: -0.0071
+    95% CI:      [-0.0333, 0.0183]
+H+AI vs AI:
+    Significant: True
+    Effect size: 0.0262
+    95% CI:      [0.0018, 0.0515]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0191
+    95% CI:      [-0.0054, 0.0436]
+
+--- Children OK ---
+H vs AI:
+    Significant: False
+    Effect size: 0.0104
+    95% CI:      [-0.0174, 0.0375]
+H+AI vs AI:
+    Significant: False
+    Effect size: -0.0245
+    95% CI:      [-0.0515, 0.0024]
+H vs H+AI:
+    Significant: False
+    Effect size: -0.0141
+    95% CI:      [-0.0403, 0.0120]
+

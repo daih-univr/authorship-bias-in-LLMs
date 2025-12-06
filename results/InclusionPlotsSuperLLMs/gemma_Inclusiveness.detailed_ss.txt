@@ -1,0 +1,75 @@
+Statistical Test Results
+=========================
+
+Report for: gemma_Inclusiveness.detailed_ss.txt
+
+--- Gender Disc. ---
+H vs AI:
+    Significant: False
+    Effect size: 0.0000
+    95% CI:      [0.0000, 0.0000]
+H+AI vs AI:
+    Significant: False
+    Effect size: 0.0000
+    95% CI:      [0.0000, 0.0000]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0000
+    95% CI:      [0.0000, 0.0000]
+
+--- Body-shaming ---
+H vs AI:
+    Significant: False
+    Effect size: 0.0100
+    95% CI:      [-0.0233, 0.0433]
+H+AI vs AI:
+    Significant: False
+    Effect size: 0.0000
+    95% CI:      [-0.0367, 0.0333]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0100
+    95% CI:      [-0.0233, 0.0433]
+
+--- Violence ---
+H vs AI:
+    Significant: False
+    Effect size: -0.0033
+    95% CI:      [-0.0100, 0.0000]
+H+AI vs AI:
+    Significant: False
+    Effect size: 0.0033
+    95% CI:      [0.0000, 0.0100]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0000
+    95% CI:      [0.0000, 0.0000]
+
+--- Only Appearance ---
+H vs AI:
+    Significant: False
+    Effect size: 0.0000
+    95% CI:      [-0.0133, 0.0133]
+H+AI vs AI:
+    Significant: False
+    Effect size: -0.0100
+    95% CI:      [-0.0267, 0.0067]
+H vs H+AI:
+    Significant: False
+    Effect size: -0.0100
+    95% CI:      [-0.0267, 0.0067]
+
+--- Children OK ---
+H vs AI:
+    Significant: False
+    Effect size: 0.0000
+    95% CI:      [0.0000, 0.0000]
+H+AI vs AI:
+    Significant: False
+    Effect size: 0.0000
+    95% CI:      [0.0000, 0.0000]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0000
+    95% CI:      [0.0000, 0.0000]
+

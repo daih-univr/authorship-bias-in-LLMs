@@ -1,0 +1,131 @@
+Statistical Test Results
+=========================
+
+Report for: llama_Aesthetic_Evaluation.detailed_ss.txt
+
+--- Beautiful ---
+H vs AI:
+    Significant: True
+    Effect size: 0.4834
+    95% CI:      [0.2244, 0.7527]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.6971
+    95% CI:      [-0.9534, -0.4293]
+H vs H+AI:
+    Significant: False
+    Effect size: -0.2137
+    95% CI:      [-0.4710, 0.0470]
+
+--- Fascinating ---
+H vs AI:
+    Significant: True
+    Effect size: 0.7148
+    95% CI:      [0.4384, 0.9914]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.8483
+    95% CI:      [-1.1285, -0.5713]
+H vs H+AI:
+    Significant: False
+    Effect size: -0.1335
+    95% CI:      [-0.4110, 0.1492]
+
+--- Interesting ---
+H vs AI:
+    Significant: True
+    Effect size: 0.5401
+    95% CI:      [0.2844, 0.7921]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.6027
+    95% CI:      [-0.8597, -0.3550]
+H vs H+AI:
+    Significant: False
+    Effect size: -0.0625
+    95% CI:      [-0.3006, 0.1776]
+
+--- Romantic ---
+H vs AI:
+    Significant: True
+    Effect size: 0.3533
+    95% CI:      [0.1875, 0.5192]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.3173
+    95% CI:      [-0.4673, -0.1629]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0360
+    95% CI:      [-0.1455, 0.2142]
+
+--- Boring ---
+H vs AI:
+    Significant: False
+    Effect size: 0.0168
+    95% CI:      [-0.0626, 0.0997]
+H+AI vs AI:
+    Significant: False
+    Effect size: -0.0150
+    95% CI:      [-0.0874, 0.0576]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0018
+    95% CI:      [-0.0801, 0.0878]
+
+--- Engaging ---
+H vs AI:
+    Significant: True
+    Effect size: 0.6134
+    95% CI:      [0.3406, 0.8864]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.7838
+    95% CI:      [-1.0520, -0.5133]
+H vs H+AI:
+    Significant: False
+    Effect size: -0.1704
+    95% CI:      [-0.4224, 0.0887]
+
+--- Exciting ---
+H vs AI:
+    Significant: True
+    Effect size: 0.4563
+    95% CI:      [0.1277, 0.7913]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.6754
+    95% CI:      [-1.0026, -0.3307]
+H vs H+AI:
+    Significant: False
+    Effect size: -0.2192
+    95% CI:      [-0.5552, 0.1172]
+
+--- Amusing ---
+H vs AI:
+    Significant: True
+    Effect size: 0.6039
+    95% CI:      [0.2927, 0.9150]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.6551
+    95% CI:      [-0.9677, -0.3395]
+H vs H+AI:
+    Significant: False
+    Effect size: -0.0512
+    95% CI:      [-0.3554, 0.2498]
+
+--- Pleasant ---
+H vs AI:
+    Significant: True
+    Effect size: 0.6724
+    95% CI:      [0.3960, 0.9523]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.7551
+    95% CI:      [-1.0337, -0.4748]
+H vs H+AI:
+    Significant: False
+    Effect size: -0.0827
+    95% CI:      [-0.3604, 0.1872]
+

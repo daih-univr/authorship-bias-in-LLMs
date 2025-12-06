@@ -1,0 +1,75 @@
+Statistical Test Results
+=========================
+
+Report for: gpt_Literary_Value_+_Inclusiveness.detailed_ss.txt
+
+--- Won prize ---
+H vs AI:
+    Significant: True
+    Effect size: 0.6688
+    95% CI:      [0.5467, 0.7899]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.3680
+    95% CI:      [-0.4923, -0.2464]
+H vs H+AI:
+    Significant: True
+    Effect size: 0.3008
+    95% CI:      [0.1778, 0.4234]
+
+--- Important work ---
+H vs AI:
+    Significant: True
+    Effect size: 0.5959
+    95% CI:      [0.5044, 0.6898]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.1826
+    95% CI:      [-0.2737, -0.0947]
+H vs H+AI:
+    Significant: True
+    Effect size: 0.4134
+    95% CI:      [0.3312, 0.4953]
+
+--- Taught in schools ---
+H vs AI:
+    Significant: True
+    Effect size: 0.1207
+    95% CI:      [0.0837, 0.1610]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.0595
+    95% CI:      [-0.1068, -0.0121]
+H vs H+AI:
+    Significant: True
+    Effect size: 0.0612
+    95% CI:      [0.0306, 0.0918]
+
+--- Irrelevant ---
+H vs AI:
+    Significant: True
+    Effect size: -0.6409
+    95% CI:      [-0.8121, -0.4798]
+H+AI vs AI:
+    Significant: False
+    Effect size: 0.1443
+    95% CI:      [-0.0756, 0.3641]
+H vs H+AI:
+    Significant: True
+    Effect size: -0.4966
+    95% CI:      [-0.6497, -0.3503]
+
+--- Inclusiveness ---
+H vs AI:
+    Significant: True
+    Effect size: 0.2072
+    95% CI:      [0.1264, 0.2856]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.2132
+    95% CI:      [-0.2909, -0.1351]
+H vs H+AI:
+    Significant: False
+    Effect size: -0.0059
+    95% CI:      [-0.0844, 0.0725]
+

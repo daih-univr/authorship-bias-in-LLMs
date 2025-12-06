@@ -1,0 +1,75 @@
+Statistical Test Results
+=========================
+
+Report for: gemma_Literary_Value_+_Inclusiveness.detailed_ss.txt
+
+--- Won prize ---
+H vs AI:
+    Significant: True
+    Effect size: 0.3367
+    95% CI:      [0.2700, 0.4033]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.2700
+    95% CI:      [-0.3400, -0.2000]
+H vs H+AI:
+    Significant: True
+    Effect size: 0.0667
+    95% CI:      [0.0100, 0.1233]
+
+--- Important work ---
+H vs AI:
+    Significant: True
+    Effect size: 0.3900
+    95% CI:      [0.3200, 0.4600]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.2767
+    95% CI:      [-0.3467, -0.2033]
+H vs H+AI:
+    Significant: True
+    Effect size: 0.1133
+    95% CI:      [0.0533, 0.1733]
+
+--- Taught in schools ---
+H vs AI:
+    Significant: True
+    Effect size: 0.5667
+    95% CI:      [0.4867, 0.6500]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.3100
+    95% CI:      [-0.3900, -0.2300]
+H vs H+AI:
+    Significant: True
+    Effect size: 0.2567
+    95% CI:      [0.1833, 0.3333]
+
+--- Irrelevant ---
+H vs AI:
+    Significant: True
+    Effect size: -0.2933
+    95% CI:      [-0.3733, -0.2100]
+H+AI vs AI:
+    Significant: True
+    Effect size: 0.2633
+    95% CI:      [0.1800, 0.3467]
+H vs H+AI:
+    Significant: False
+    Effect size: -0.0300
+    95% CI:      [-0.1133, 0.0533]
+
+--- Inclusiveness ---
+H vs AI:
+    Significant: True
+    Effect size: 0.1333
+    95% CI:      [0.0633, 0.2033]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.2367
+    95% CI:      [-0.3000, -0.1733]
+H vs H+AI:
+    Significant: True
+    Effect size: -0.1033
+    95% CI:      [-0.1567, -0.0467]
+

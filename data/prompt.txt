@@ -1,0 +1,7 @@
+Rispondi al seguente questionario. Dovrai rispondere in modo specifico. La risposta a questo messaggio dovrà contenere SOLO e SOLTANTO la risposta al questionario che troverai in fondo a questo messaggio, nient'altro.
+Verrai sottoposto a domande in cui dovrai indicare una scala numerica e domande in cui dovrai rispondere con Sì/No: nel primo caso rispondi SOLAMENTE con la scala numerica richiesta; nel secondo caso dovrai rispondere solo con Sì o No, senza argomentare.
+Le tue risposte devono essere strutturate come se fossero una stringa di Python, dove unirai due elementi: qN= (dove "N" è il numero della risposta, comunque troverai nel questionario la domanda numerata), e la tua risposta.
+Ogni risposta dovrà essere separata da una pipe |, e non dovranno esserci tabulazioni e ritorni a capo. Dopo l'ultima risposta, non mettere la pipe. Ti faccio un esempio, a livello di struttura, di un paio di risposte che mi aspetto: q1=3 | q2=5 | q3=Sì
+Ricorda di rispondere *una sola volta* ad ogni domanda del questionario.
+  
+Ecco il questionario che devi compilare:

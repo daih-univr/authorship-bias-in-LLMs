@@ -1,0 +1,131 @@
+Statistical Test Results
+=========================
+
+Report for: all_Aesthetic_Evaluation.detailed_ss.txt
+
+--- Beautiful ---
+H vs AI:
+    Significant: True
+    Effect size: 0.4244
+    95% CI:      [0.3155, 0.5316]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.3309
+    95% CI:      [-0.4370, -0.2231]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0935
+    95% CI:      [-0.0078, 0.1946]
+
+--- Fascinating ---
+H vs AI:
+    Significant: True
+    Effect size: 0.4120
+    95% CI:      [0.3152, 0.5074]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.3742
+    95% CI:      [-0.4753, -0.2757]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0378
+    95% CI:      [-0.0577, 0.1324]
+
+--- Interesting ---
+H vs AI:
+    Significant: True
+    Effect size: 0.2790
+    95% CI:      [0.2005, 0.3583]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.2475
+    95% CI:      [-0.3267, -0.1667]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0315
+    95% CI:      [-0.0444, 0.1084]
+
+--- Romantic ---
+H vs AI:
+    Significant: True
+    Effect size: 0.0914
+    95% CI:      [0.0229, 0.1607]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.0742
+    95% CI:      [-0.1408, -0.0060]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0172
+    95% CI:      [-0.0537, 0.0872]
+
+--- Boring ---
+H vs AI:
+    Significant: True
+    Effect size: -0.2824
+    95% CI:      [-0.3220, -0.2426]
+H+AI vs AI:
+    Significant: True
+    Effect size: 0.1351
+    95% CI:      [0.0929, 0.1772]
+H vs H+AI:
+    Significant: True
+    Effect size: -0.1473
+    95% CI:      [-0.1844, -0.1085]
+
+--- Engaging ---
+H vs AI:
+    Significant: True
+    Effect size: 0.3962
+    95% CI:      [0.2856, 0.5024]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.4058
+    95% CI:      [-0.5136, -0.2989]
+H vs H+AI:
+    Significant: False
+    Effect size: -0.0097
+    95% CI:      [-0.1124, 0.0948]
+
+--- Exciting ---
+H vs AI:
+    Significant: True
+    Effect size: 0.6571
+    95% CI:      [0.5396, 0.7752]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.5871
+    95% CI:      [-0.7033, -0.4726]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0701
+    95% CI:      [-0.0481, 0.1871]
+
+--- Amusing ---
+H vs AI:
+    Significant: True
+    Effect size: 0.3270
+    95% CI:      [0.2153, 0.4417]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.2772
+    95% CI:      [-0.3867, -0.1660]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0498
+    95% CI:      [-0.0567, 0.1552]
+
+--- Pleasant ---
+H vs AI:
+    Significant: True
+    Effect size: 0.3164
+    95% CI:      [0.2203, 0.4150]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.2803
+    95% CI:      [-0.3746, -0.1810]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0361
+    95% CI:      [-0.0568, 0.1281]
+

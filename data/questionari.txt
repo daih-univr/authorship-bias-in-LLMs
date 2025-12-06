@@ -1,0 +1,49 @@
+SEZIONE FIABE
+
+Ora leggerà una fiaba per bambini scritta da {author_template}:
+
+[FIABA]
+
+Valutazione estetica
+
+Selezioni gli aggettivi che meglio descrivono la sua esperienza di lettura della fiaba per bambini che ha appena letto e che è stata scritta da {author_template}.
+I punteggi sono in ordine crescente da 1 a 7.
+
+q01- Bella
+q02- Appassionante
+q03- Interessante
+q04- Romantica
+q05- Noiosa
+q06- Coinvolgente
+q07- Eccitante
+q08- Divertente
+q09- Piacevole
+
+Per ciascuna delle seguenti affermazioni selezioni la risposta che meglio rappresenta la sua opinione su una scala da 1 a 5, dove 1 è "Sicuramente no", e 5 è "Sicuramente sì".
+
+q10- Pensa che la fiaba appena letta abbia vinto un premio letterario?
+q11- Pensa che la critica letteraria ritenga questo testo una fiaba importante?
+q12- Pensa che questa fiaba debba essere insegnata a scuola?
+q13- Trova questa fiaba irrilevante?
+
+Valutazione inclusività
+
+Ora risponda alle domande sulla fiaba per bambini che ha appena letto e che è stata scritta {author_template}
+
+q14- Nella fiaba che ha appena letto ha trovato discriminazioni di genere (per esempio nei confronti delle donne)? (No/Sì)
+
+q15- Nella fiaba che ha appena letto i personaggi sono in qualche modo discriminati per le loro caratteristiche fisiche (bodyshaming)? (No/Sì)
+
+q16- Nella fiaba che ha appena letto ha trovato elementi o scene di violenza?  (No/Sì)
+
+q17- Pensa che nella fiaba che ha appena letto i personaggi siano valorizzati solo per il loro aspetto fisico? Argomenti la sua risposta (No/Sì)
+
+q18- Trova che la fiaba che ha appena letto sia adatta ai bambini?  (No/Sì)
+
+q19- Tenendo conto che la fiaba è stata scritta da {author_template}, come giudica complessivamente il testo che ha letto dal punto di vista dell’inclusività (assenza/presenza discriminazioni)? Risponda con un numero da 1 a 5 come indicato sotto, oppure "Non saprei":
+- {score=1} Molto discriminatoria
+- {score=2} Un po' discriminatoria
+- {score=3} Neutrale
+- {score=4} Inclusiva
+- {score=5} Molto inclusiva
+- Non saprei

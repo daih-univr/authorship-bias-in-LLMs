@@ -1,0 +1,75 @@
+Statistical Test Results
+=========================
+
+Report for: llama_Literary_Value_+_Inclusiveness.detailed_ss.txt
+
+--- Won prize ---
+H vs AI:
+    Significant: True
+    Effect size: 0.3166
+    95% CI:      [0.1266, 0.5029]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.3064
+    95% CI:      [-0.4850, -0.1250]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0102
+    95% CI:      [-0.1784, 0.2013]
+
+--- Important work ---
+H vs AI:
+    Significant: True
+    Effect size: 0.4274
+    95% CI:      [0.2514, 0.6035]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.4581
+    95% CI:      [-0.6320, -0.2844]
+H vs H+AI:
+    Significant: False
+    Effect size: -0.0308
+    95% CI:      [-0.2102, 0.1533]
+
+--- Taught in schools ---
+H vs AI:
+    Significant: True
+    Effect size: 0.3817
+    95% CI:      [0.1675, 0.5857]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.2975
+    95% CI:      [-0.5163, -0.0831]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0842
+    95% CI:      [-0.1246, 0.2952]
+
+--- Irrelevant ---
+H vs AI:
+    Significant: False
+    Effect size: 0.0643
+    95% CI:      [-0.0635, 0.1919]
+H+AI vs AI:
+    Significant: False
+    Effect size: -0.0248
+    95% CI:      [-0.1451, 0.0987]
+H vs H+AI:
+    Significant: False
+    Effect size: 0.0395
+    95% CI:      [-0.0812, 0.1661]
+
+--- Inclusiveness ---
+H vs AI:
+    Significant: False
+    Effect size: 0.1311
+    95% CI:      [-0.0280, 0.2936]
+H+AI vs AI:
+    Significant: True
+    Effect size: -0.1672
+    95% CI:      [-0.3331, -0.0030]
+H vs H+AI:
+    Significant: False
+    Effect size: -0.0361
+    95% CI:      [-0.1971, 0.1288]
+
