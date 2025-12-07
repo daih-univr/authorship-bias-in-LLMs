@@ -1,4 +1,4 @@
-GitHub repo for the manuscript:
+GitHub repo with the materials for the manuscript:
 
 # Machines Prefer Humans as Literary Authors: Evaluating Authorship Bias in Large Language Models
 
