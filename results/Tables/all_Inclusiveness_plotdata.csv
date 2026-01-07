@@ -1,0 +1,16 @@
+figure_title,group_title,condition_label,metric,estimate,ci_low,ci_high
+Inclusiveness (Yes/No Answers),Gender Disc.,Human,percent_target,17.94,15.74,20.14
+Inclusiveness (Yes/No Answers),Gender Disc.,AI,percent_target,16.43,14.32,18.53
+Inclusiveness (Yes/No Answers),Gender Disc.,Human+AI,percent_target,13.22,11.36,15.24
+Inclusiveness (Yes/No Answers),Body-shaming,Human,percent_target,64.97,62.18,67.68
+Inclusiveness (Yes/No Answers),Body-shaming,AI,percent_target,62.01,59.22,64.7
+Inclusiveness (Yes/No Answers),Body-shaming,Human+AI,percent_target,62.63,59.93,65.32
+Inclusiveness (Yes/No Answers),Violence,Human,percent_target,32.99,30.37,35.7
+Inclusiveness (Yes/No Answers),Violence,AI,percent_target,30.75,28.14,33.36
+Inclusiveness (Yes/No Answers),Violence,Human+AI,percent_target,29.04,26.43,31.65
+Inclusiveness (Yes/No Answers),Only Appearance,Human,percent_target,11.51,9.73,13.37
+Inclusiveness (Yes/No Answers),Only Appearance,AI,percent_target,12.22,10.36,14.07
+Inclusiveness (Yes/No Answers),Only Appearance,Human+AI,percent_target,9.6,7.91,11.28
+Inclusiveness (Yes/No Answers),Children OK,Human,percent_target,87.23,85.28,89.09
+Inclusiveness (Yes/No Answers),Children OK,AI,percent_target,86.18,84.16,88.12
+Inclusiveness (Yes/No Answers),Children OK,Human+AI,percent_target,88.64,86.78,90.4

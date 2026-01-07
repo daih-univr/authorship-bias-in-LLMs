@@ -1,0 +1,16 @@
+figure_title,group_title,condition_label,metric,estimate,ci_low,ci_high
+Inclusiveness (Yes/No Answers) - llama,Gender Disc.,Human,percent_target,55.86,50.34,61.38
+Inclusiveness (Yes/No Answers) - llama,Gender Disc.,AI,percent_target,50.52,44.98,56.4
+Inclusiveness (Yes/No Answers) - llama,Gender Disc.,Human+AI,percent_target,49.32,43.54,55.1
+Inclusiveness (Yes/No Answers) - llama,Body-shaming,Human,percent_target,60.69,55.17,66.21
+Inclusiveness (Yes/No Answers) - llama,Body-shaming,AI,percent_target,52.25,46.37,58.13
+Inclusiveness (Yes/No Answers) - llama,Body-shaming,Human+AI,percent_target,49.32,43.54,54.76
+Inclusiveness (Yes/No Answers) - llama,Violence,Human,percent_target,38.28,32.76,43.79
+Inclusiveness (Yes/No Answers) - llama,Violence,AI,percent_target,35.29,29.76,40.83
+Inclusiveness (Yes/No Answers) - llama,Violence,Human+AI,percent_target,31.63,26.53,37.07
+Inclusiveness (Yes/No Answers) - llama,Only Appearance,Human,percent_target,28.97,23.79,34.14
+Inclusiveness (Yes/No Answers) - llama,Only Appearance,AI,percent_target,31.14,25.61,36.33
+Inclusiveness (Yes/No Answers) - llama,Only Appearance,Human+AI,percent_target,24.49,19.73,29.59
+Inclusiveness (Yes/No Answers) - llama,Children OK,Human,percent_target,47.93,42.07,53.79
+Inclusiveness (Yes/No Answers) - llama,Children OK,AI,percent_target,43.25,37.72,48.79
+Inclusiveness (Yes/No Answers) - llama,Children OK,Human+AI,percent_target,54.76,48.98,60.2

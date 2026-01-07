@@ -1,0 +1,16 @@
+figure_title,group_title,condition_label,metric,estimate,ci_low,ci_high
+Literary Value + Inclusiveness - gemma,Won prize,Human,mean_likert,1.91,1.87,1.95
+Literary Value + Inclusiveness - gemma,Won prize,AI,mean_likert,1.57,1.52,1.63
+Literary Value + Inclusiveness - gemma,Won prize,Human+AI,mean_likert,1.84,1.8,1.88
+Literary Value + Inclusiveness - gemma,Important work,Human,mean_likert,1.99,1.94,2.03
+Literary Value + Inclusiveness - gemma,Important work,AI,mean_likert,1.6,1.54,1.65
+Literary Value + Inclusiveness - gemma,Important work,Human+AI,mean_likert,1.87,1.83,1.92
+Literary Value + Inclusiveness - gemma,Taught in schools,Human,mean_likert,3.15,3.1,3.21
+Literary Value + Inclusiveness - gemma,Taught in schools,AI,mean_likert,2.59,2.53,2.65
+Literary Value + Inclusiveness - gemma,Taught in schools,Human+AI,mean_likert,2.9,2.84,2.95
+Literary Value + Inclusiveness - gemma,Irrelevant,Human,mean_likert,1.52,1.46,1.58
+Literary Value + Inclusiveness - gemma,Irrelevant,AI,mean_likert,1.81,1.75,1.87
+Literary Value + Inclusiveness - gemma,Irrelevant,Human+AI,mean_likert,1.55,1.49,1.61
+Literary Value + Inclusiveness - gemma,Inclusiveness,Human,mean_likert,3.82,3.77,3.86
+Literary Value + Inclusiveness - gemma,Inclusiveness,AI,mean_likert,3.69,3.63,3.74
+Literary Value + Inclusiveness - gemma,Inclusiveness,Human+AI,mean_likert,3.92,3.89,3.96

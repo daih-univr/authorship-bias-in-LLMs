@@ -1,0 +1,16 @@
+figure_title,group_title,condition_label,metric,estimate,ci_low,ci_high
+Literary Value + Inclusiveness - gemini,Won prize,Human,mean_likert,3.73,3.68,3.78
+Literary Value + Inclusiveness - gemini,Won prize,AI,mean_likert,2.08,2.04,2.13
+Literary Value + Inclusiveness - gemini,Won prize,Human+AI,mean_likert,2.6,2.53,2.68
+Literary Value + Inclusiveness - gemini,Important work,Human,mean_likert,3.63,3.57,3.68
+Literary Value + Inclusiveness - gemini,Important work,AI,mean_likert,2.3,2.24,2.36
+Literary Value + Inclusiveness - gemini,Important work,Human+AI,mean_likert,2.66,2.59,2.73
+Literary Value + Inclusiveness - gemini,Taught in schools,Human,mean_likert,4.93,4.9,4.96
+Literary Value + Inclusiveness - gemini,Taught in schools,AI,mean_likert,3.78,3.73,3.83
+Literary Value + Inclusiveness - gemini,Taught in schools,Human+AI,mean_likert,4.08,4.03,4.14
+Literary Value + Inclusiveness - gemini,Irrelevant,Human,mean_likert,1.06,1.04,1.09
+Literary Value + Inclusiveness - gemini,Irrelevant,AI,mean_likert,1.68,1.63,1.74
+Literary Value + Inclusiveness - gemini,Irrelevant,Human+AI,mean_likert,1.57,1.52,1.63
+Literary Value + Inclusiveness - gemini,Inclusiveness,Human,mean_likert,4.77,4.72,4.82
+Literary Value + Inclusiveness - gemini,Inclusiveness,AI,mean_likert,4.2,4.14,4.26
+Literary Value + Inclusiveness - gemini,Inclusiveness,Human+AI,mean_likert,4.46,4.41,4.52

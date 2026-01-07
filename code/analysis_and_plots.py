@@ -160,6 +160,24 @@ def bootstrap_ci_proportion(binary_data, n_bootstrap=10000):
     ci_low, ci_high = np.percentile(boot_props, [2.5, 97.5])
     return ci_low * 100, ci_high * 100
 
+def _plotdata_csv_path_from_output(output_file: str) -> str:
+    base, _ = os.path.splitext(output_file)
+    return base + "_plotdata.csv"
+
+
+def save_plot_data_csv(rows, output_file):
+    csv_path = _plotdata_csv_path_from_output(output_file)
+    df = pd.DataFrame(rows)
+
+    # Round numeric outputs to 2 decimals (estimate + CI)
+    for col in ["estimate", "ci_low", "ci_high"]:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce").round(2)
+
+    os.makedirs(os.path.dirname(csv_path), exist_ok=True)
+    df.to_csv(csv_path, index=False)
+    print(f"Written plot data CSV: {csv_path}")
+
 
 # =========================================================
 #               HELPER: WRITE STATS REPORT
@@ -238,6 +256,9 @@ def plot_likert_multi_group_dotplot(
     if significance_flags is None:
         significance_flags = [(False, False, False)] * num_groups
 
+    # NEW: collect data to save
+    plot_rows = []
+
     width = 10 if num_groups <= 5 else 1.5 * num_groups
     fig, ax = plt.subplots(figsize=(width, 6))
 
@@ -250,11 +271,23 @@ def plot_likert_multi_group_dotplot(
     for g, (group_data, sig_flag) in enumerate(zip(data_groups, significance_flags)):
 
         for i in range(3):
-            data = pd.Series(group_data[i])
+            data = pd.Series(group_data[i]).dropna()
             mean_val = data.mean()
+            n = len(data)
 
-            # BOOTSTRAP CI
+            # BOOTSTRAP CI (absolute endpoints)
             ci_low, ci_high = bootstrap_ci_mean(data, n_bootstrap=n_bootstrap)
+
+            # NEW: store row (absolute CI bounds)
+            plot_rows.append({
+                "figure_title": title,
+                "group_title": group_titles[g],
+                "condition_label": condition_labels[i],
+                "metric": "mean_likert",
+                "estimate": float(mean_val) if pd.notna(mean_val) else np.nan,
+                "ci_low": float(ci_low) if pd.notna(ci_low) else np.nan,
+                "ci_high": float(ci_high) if pd.notna(ci_high) else np.nan,
+            })
 
             xpos = g * group_spacing + i * condition_spacing
 
@@ -268,8 +301,6 @@ def plot_likert_multi_group_dotplot(
             colors.append(condition_colors[i])
 
         # significance markings
-        # Order: H vs AI, H+AI vs AI, H vs H+AI
-        # indices: 0: Human, 1: AI, 2: Human+AI
         comparison_pairs = [
             (0, 1),  # H vs AI
             (1, 2),  # H+AI vs AI
@@ -306,7 +337,6 @@ def plot_likert_multi_group_dotplot(
     base_y = max(means) + max(ci_highs) + 0.2
     step = 0.12
 
-    #sig_sorted = sorted(sig_annotations, key=lambda x: (x[2], x[0]))
     sig_sorted = sig_annotations
     group_counts = [0] * num_groups
 
@@ -318,6 +348,9 @@ def plot_likert_multi_group_dotplot(
     plt.tight_layout()
     plt.savefig(output_file, format='pdf')
     plt.close()
+
+    # NEW: write CSV next to the figure
+    save_plot_data_csv(plot_rows, output_file)
 
 
 
@@ -338,6 +371,9 @@ def plot_binary_response_dotplot(
     if significance_flags is None:
         significance_flags = [(False, False, False)] * num_groups
 
+    # NEW: collect data to save
+    plot_rows = []
+
     width = max(10, 1.5 * num_groups)
     fig, ax = plt.subplots(figsize=(width, 6))
 
@@ -350,15 +386,28 @@ def plot_binary_response_dotplot(
     for g, (group_data, sig_flag) in enumerate(zip(data_groups, significance_flags)):
 
         for i, cond in enumerate(condition_labels):
-            data = pd.Series(group_data[i])
+            data = pd.Series(group_data[i]).dropna()
 
             # compute proportion
             n = data.notna().sum()
             k = (data == target_value).sum()
-            perc = (k / n * 100) if n > 0 else 0
+            perc = (k / n * 100) if n > 0 else 0.0
 
-            # bootstrap CI
+            # bootstrap CI (absolute endpoints in %)
             ci_low, ci_high = bootstrap_ci_proportion(data, n_bootstrap=n_bootstrap)
+
+            # NEW: store row (absolute CI bounds)
+            plot_rows.append({
+                "figure_title": title,
+                "group_title": group_titles[g],
+                "condition_label": cond,
+                "metric": "percent_target",
+                #"target_value": target_value,
+                "estimate": float(perc),
+                "ci_low": float(ci_low) if pd.notna(ci_low) else np.nan,
+                "ci_high": float(ci_high) if pd.notna(ci_high) else np.nan,
+                #"k_yes": int(k)
+            })
 
             xpos = g * group_spacing + i * condition_spacing
 
@@ -406,7 +455,6 @@ def plot_binary_response_dotplot(
     base_y = max(perc_values) + max(ci_high_list) + 1
     step = 2.5
 
-    #sig_sorted = sorted(sig_annotations, key=lambda x: (x[2], x[0]))
     sig_sorted = sig_annotations
     group_counts = [0] * num_groups
 
@@ -418,6 +466,8 @@ def plot_binary_response_dotplot(
     plt.savefig(output_file, format='pdf')
     plt.close()
 
+    # NEW: write CSV next to the figure
+    save_plot_data_csv(plot_rows, output_file)
 
 
 # =========================================================

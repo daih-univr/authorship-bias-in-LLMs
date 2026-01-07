@@ -1,0 +1,16 @@
+figure_title,group_title,condition_label,metric,estimate,ci_low,ci_high
+Inclusiveness (Yes/No Answers) - gpt,Gender Disc.,Human,percent_target,2.4,0.68,4.45
+Inclusiveness (Yes/No Answers) - gpt,Gender Disc.,AI,percent_target,0.34,0.0,1.01
+Inclusiveness (Yes/No Answers) - gpt,Gender Disc.,Human+AI,percent_target,1.36,0.34,2.72
+Inclusiveness (Yes/No Answers) - gpt,Body-shaming,Human,percent_target,1.71,0.34,3.42
+Inclusiveness (Yes/No Answers) - gpt,Body-shaming,AI,percent_target,0.34,0.0,1.01
+Inclusiveness (Yes/No Answers) - gpt,Body-shaming,Human+AI,percent_target,7.48,4.76,10.54
+Inclusiveness (Yes/No Answers) - gpt,Violence,Human,percent_target,0.34,0.0,1.03
+Inclusiveness (Yes/No Answers) - gpt,Violence,AI,percent_target,0.0,0.0,0.0
+Inclusiveness (Yes/No Answers) - gpt,Violence,Human+AI,percent_target,0.0,0.0,0.0
+Inclusiveness (Yes/No Answers) - gpt,Only Appearance,Human,percent_target,0.0,0.0,0.0
+Inclusiveness (Yes/No Answers) - gpt,Only Appearance,AI,percent_target,0.0,0.0,0.0
+Inclusiveness (Yes/No Answers) - gpt,Only Appearance,Human+AI,percent_target,0.0,0.0,0.0
+Inclusiveness (Yes/No Answers) - gpt,Children OK,Human,percent_target,100.0,100.0,100.0
+Inclusiveness (Yes/No Answers) - gpt,Children OK,AI,percent_target,100.0,100.0,100.0
+Inclusiveness (Yes/No Answers) - gpt,Children OK,Human+AI,percent_target,99.32,98.3,100.0

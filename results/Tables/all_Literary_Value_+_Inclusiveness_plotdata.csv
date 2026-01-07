@@ -1,0 +1,16 @@
+figure_title,group_title,condition_label,metric,estimate,ci_low,ci_high
+Literary Value + Inclusiveness,Won prize,Human,mean_likert,3.09,3.02,3.15
+Literary Value + Inclusiveness,Won prize,AI,mean_likert,2.35,2.29,2.41
+Literary Value + Inclusiveness,Won prize,Human+AI,mean_likert,2.71,2.65,2.77
+Literary Value + Inclusiveness,Important work,Human,mean_likert,3.09,3.02,3.15
+Literary Value + Inclusiveness,Important work,AI,mean_likert,2.41,2.35,2.47
+Literary Value + Inclusiveness,Important work,Human+AI,mean_likert,2.72,2.66,2.78
+Literary Value + Inclusiveness,Taught in schools,Human,mean_likert,4.19,4.13,4.25
+Literary Value + Inclusiveness,Taught in schools,AI,mean_likert,3.64,3.57,3.7
+Literary Value + Inclusiveness,Taught in schools,Human+AI,mean_likert,3.88,3.82,3.93
+Literary Value + Inclusiveness,Irrelevant,Human,mean_likert,1.25,1.22,1.28
+Literary Value + Inclusiveness,Irrelevant,AI,mean_likert,1.62,1.57,1.68
+Literary Value + Inclusiveness,Irrelevant,Human+AI,mean_likert,1.5,1.45,1.55
+Literary Value + Inclusiveness,Inclusiveness,Human,mean_likert,4.08,4.03,4.14
+Literary Value + Inclusiveness,Inclusiveness,AI,mean_likert,3.83,3.78,3.87
+Literary Value + Inclusiveness,Inclusiveness,Human+AI,mean_likert,4.04,3.99,4.09

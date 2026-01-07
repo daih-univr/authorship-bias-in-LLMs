@@ -1,0 +1,16 @@
+figure_title,group_title,condition_label,metric,estimate,ci_low,ci_high
+Literary Value + Inclusiveness - llama,Won prize,Human,mean_likert,2.5,2.36,2.64
+Literary Value + Inclusiveness - llama,Won prize,AI,mean_likert,2.18,2.06,2.31
+Literary Value + Inclusiveness - llama,Won prize,Human+AI,mean_likert,2.49,2.36,2.63
+Literary Value + Inclusiveness - llama,Important work,Human,mean_likert,2.49,2.36,2.62
+Literary Value + Inclusiveness - llama,Important work,AI,mean_likert,2.06,1.94,2.18
+Literary Value + Inclusiveness - llama,Important work,Human+AI,mean_likert,2.52,2.39,2.65
+Literary Value + Inclusiveness - llama,Taught in schools,Human,mean_likert,3.69,3.54,3.83
+Literary Value + Inclusiveness - llama,Taught in schools,AI,mean_likert,3.31,3.16,3.46
+Literary Value + Inclusiveness - llama,Taught in schools,Human+AI,mean_likert,3.61,3.45,3.76
+Literary Value + Inclusiveness - llama,Irrelevant,Human,mean_likert,1.41,1.32,1.5
+Literary Value + Inclusiveness - llama,Irrelevant,AI,mean_likert,1.34,1.26,1.44
+Literary Value + Inclusiveness - llama,Irrelevant,Human+AI,mean_likert,1.37,1.29,1.46
+Literary Value + Inclusiveness - llama,Inclusiveness,Human,mean_likert,3.1,2.98,3.21
+Literary Value + Inclusiveness - llama,Inclusiveness,AI,mean_likert,2.97,2.86,3.08
+Literary Value + Inclusiveness - llama,Inclusiveness,Human+AI,mean_likert,3.14,3.02,3.25

@@ -1,0 +1,16 @@
+figure_title,group_title,condition_label,metric,estimate,ci_low,ci_high
+Inclusiveness (Yes/No Answers) - gemini,Gender Disc.,Human,percent_target,14.33,10.67,18.33
+Inclusiveness (Yes/No Answers) - gemini,Gender Disc.,AI,percent_target,16.0,12.0,20.33
+Inclusiveness (Yes/No Answers) - gemini,Gender Disc.,Human+AI,percent_target,2.67,1.0,4.67
+Inclusiveness (Yes/No Answers) - gemini,Body-shaming,Human,percent_target,100.0,100.0,100.0
+Inclusiveness (Yes/No Answers) - gemini,Body-shaming,AI,percent_target,100.0,100.0,100.0
+Inclusiveness (Yes/No Answers) - gemini,Body-shaming,Human+AI,percent_target,97.67,95.67,99.33
+Inclusiveness (Yes/No Answers) - gemini,Violence,Human,percent_target,92.67,89.67,95.33
+Inclusiveness (Yes/No Answers) - gemini,Violence,AI,percent_target,87.33,83.33,91.0
+Inclusiveness (Yes/No Answers) - gemini,Violence,Human+AI,percent_target,84.0,79.67,88.0
+Inclusiveness (Yes/No Answers) - gemini,Only Appearance,Human,percent_target,16.67,12.67,21.0
+Inclusiveness (Yes/No Answers) - gemini,Only Appearance,AI,percent_target,17.67,13.33,22.0
+Inclusiveness (Yes/No Answers) - gemini,Only Appearance,Human+AI,percent_target,12.33,9.0,16.33
+Inclusiveness (Yes/No Answers) - gemini,Children OK,Human,percent_target,100.0,100.0,100.0
+Inclusiveness (Yes/No Answers) - gemini,Children OK,AI,percent_target,100.0,100.0,100.0
+Inclusiveness (Yes/No Answers) - gemini,Children OK,Human+AI,percent_target,100.0,100.0,100.0

@@ -1,0 +1,16 @@
+figure_title,group_title,condition_label,metric,estimate,ci_low,ci_high
+Inclusiveness (Yes/No Answers) - gemma,Gender Disc.,Human,percent_target,0.0,0.0,0.0
+Inclusiveness (Yes/No Answers) - gemma,Gender Disc.,AI,percent_target,0.0,0.0,0.0
+Inclusiveness (Yes/No Answers) - gemma,Gender Disc.,Human+AI,percent_target,0.0,0.0,0.0
+Inclusiveness (Yes/No Answers) - gemma,Body-shaming,Human,percent_target,95.67,93.33,97.67
+Inclusiveness (Yes/No Answers) - gemma,Body-shaming,AI,percent_target,94.67,92.0,97.0
+Inclusiveness (Yes/No Answers) - gemma,Body-shaming,Human+AI,percent_target,94.67,92.0,97.0
+Inclusiveness (Yes/No Answers) - gemma,Violence,Human,percent_target,0.0,0.0,0.0
+Inclusiveness (Yes/No Answers) - gemma,Violence,AI,percent_target,0.33,0.0,1.0
+Inclusiveness (Yes/No Answers) - gemma,Violence,Human+AI,percent_target,0.0,0.0,0.0
+Inclusiveness (Yes/No Answers) - gemma,Only Appearance,Human,percent_target,0.67,0.0,1.67
+Inclusiveness (Yes/No Answers) - gemma,Only Appearance,AI,percent_target,0.67,0.0,1.67
+Inclusiveness (Yes/No Answers) - gemma,Only Appearance,Human+AI,percent_target,1.67,0.33,3.33
+Inclusiveness (Yes/No Answers) - gemma,Children OK,Human,percent_target,100.0,100.0,100.0
+Inclusiveness (Yes/No Answers) - gemma,Children OK,AI,percent_target,100.0,100.0,100.0
+Inclusiveness (Yes/No Answers) - gemma,Children OK,Human+AI,percent_target,100.0,100.0,100.0
